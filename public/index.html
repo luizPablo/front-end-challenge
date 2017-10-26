@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Font Open Sans -->
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <!-- Pacote de Icones -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Arquivos CSS personalizados -->
+    <link rel="stylesheet" href="css/showcase.css">
+  </head>
+  <body>
+    <div class="showcase">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul>
+            <li><a href="#"><img src="img/logo_gm.png" width="192px"></a></li>
+            <li><a href="#">NOSSOS VEÍCULOS <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+            <li><a href="#">SERVIÇOS</a></li>
+            <li><a href="#">VENDAS DIRETAS <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+            <li><a class="telefones" href="#">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+               TELEFONES 
+              <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+            <li><a href="#"><img src="img/logo_toyota.png" width="117px"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="background">    
+        <iframe id="video" src="https://player.vimeo.com/video/99088718?title=0&amp;byline=0&amp;portrait=0&amp;color=3a6774&amp;autoplay=1&amp;loop=1&amp;volume=0"></iframe>
+    </div>
+    
+    <!-- jQuery, Popper.js, Bootstrap JS, jQuery Vimeo -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/jrue/Vimeo-jQuery-API/master/dist/jquery.vimeo.api.min.js"></script>
+
+  </body>
+</html>
+
+<script>
+  //Utilizando o objeto jquery, para tratar o iframe
+  $(document).ready(function($) {
+    $("#video").vimeo("setVolume", 0);
+  });
+</script>
+
+<style type="text/css">
+  body {
+    font-family: Open Sans;
+  }
+</style>

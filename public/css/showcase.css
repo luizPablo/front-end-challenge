@@ -1,0 +1,54 @@
+.showcase{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/*background*/
+.background {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  z-index: -100;
+}
+.background iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+/*nav*/
+ul {
+  list-style: none;
+  font-weight: bold;
+  font-size: 12pt;
+  padding-left: 0px;
+}
+ul li {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 18px;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.telefones {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 2px solid white;
+  font-size: 14pt;
+}
