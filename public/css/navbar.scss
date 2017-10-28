@@ -1,12 +1,21 @@
 @import 'variables.scss';
 
 /*nav*/
-.showcase-nav{
+.showcase-nav {
   text-align: center;
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
   position: fixed;
+  z-index: 2000;
+
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  -ms-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
+.backblack {
+  background-color: #b71d3e;
 }
 
 .menu {
@@ -17,9 +26,9 @@
 }
 .menu-item {
   display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 18px;
+  margin-left: 2.7%;
+  margin-right: 2.7%;
 }
 .menu-item a.principal {
   text-decoration: none;
@@ -184,7 +193,7 @@
   padding-bottom: 8px;
 }
 
-hr {
+ul hr {
   margin-top: 4px!important;
   margin-bottom: 4px!important;
 }

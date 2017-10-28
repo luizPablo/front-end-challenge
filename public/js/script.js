@@ -15,4 +15,12 @@
         $($(this).children()[1]).removeClass('fa-angle-up');
       }
     });
+
+    $(window).on("scroll", function() {
+      if($(window).scrollTop() > 100) {
+        $(".showcase-nav").addClass("backblack");
+      } else {
+        $(".showcase-nav").removeClass("backblack");
+      }
+  });
   });
