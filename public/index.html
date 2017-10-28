@@ -8,18 +8,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <!-- Pacote de Icones -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- Arquivos CSS personalizados -->
     <link rel="stylesheet" href="css/showcase.css">
+    <link rel="stylesheet" href="css/navbar.css">
   </head>
   <body>
     <div class="showcase-nav">
       <div class="row">
         <div class="col-sm-12">
           <ul class="menu">
-            <li class="menu-item"><a href="#"><img src="img/logos/logo_gm.png" width="172px"></a></li>
+            <li class="menu-item"><a href="#" class="principal"><img src="img/logos/logo_gm.png" width="172px"></a></li>
             <li class="menu-item">
-              <a href="#">
+              <a href="#" class="principal">
                 NOSSOS VEÍCULOS 
                 <i class="fa fa-angle-down" aria-hidden="true"></i>
               </a>
@@ -27,56 +28,56 @@
                 <li class="submenu-item">
                   <div class="submenu-nome">
                     <span>ETIOS HATCH 2017</span>
-                    <img src="img/carros/etios01.png">
+                    <img src="img/carros/etios01.png" width="60px">
                   </div>
                 </li>
                 <li class="submenu-item">
                   <div class="submenu-nome">
                     <span>ETIOS SEDÃ 2017</span>
-                    <img src="img/carros/etios02.png">
+                    <img src="img/carros/etios02.png" width="60px">
                   </div>
                 </li>
                 <li class="submenu-item">
                   <div class="submenu-nome">
                     <span>ETIOS CROSS 2017</span>
-                    <img src="img/carros/etios05.png">
+                    <img src="img/carros/etios05.png" width="60px">
                   </div>
                 </li>
                 <li class="submenu-item">
                   <div class="submenu-nome">
                     <span>COROLLA 2016</span>
-                    <img src="img/carros/etios04.png">
+                    <img src="img/carros/etios04.png" width="60px">
                   </div>
                 </li>
                 <li class="submenu-item">
                   <div class="submenu-nome">
                     <span>HILUX CD DIESEL</span>
-                    <img src="img/carros/etios03.png">
+                    <img src="img/carros/etios03.png" width="60px">
                   </div>
                 </li>
                 <li class="submenu-item">
                   <div class="submenu-nome">
                     <span>ETIOS SEDÃ 2017</span>
-                    <img src="img/carros/etios02.png">
+                    <img src="img/carros/etios02.png" width="60px">
                   </div>
                 </li>
                 <li class="submenu-item">
                   <div class="submenu-nome">
                     <span>ETIOS HATCH 2017</span>
-                    <img src="img/carros/etios01.png">
+                    <img src="img/carros/etios01.png" width="60px">
                   </div>
                 </li>
                 <li class="submenu-item">
                   <div class="submenu-nome">
                     <span>COROLLA 2016</span>
-                    <img src="img/carros/etios04.png">
+                    <img src="img/carros/etios04.png" width="60px">
                   </div>
                 </li>
               </ul>
             </li>
-            <li class="menu-item"><a href="#">SERVIÇOS</a></li>
+            <li class="menu-item"><a href="#" class="principal">SERVIÇOS</a></li>
             <li class="menu-item">
-              <a href="#">
+              <a href="#" class="principal">
                 VENDAS DIRETAS 
                 <i class="fa fa-angle-down" aria-hidden="true"></i>
               </a>
@@ -113,10 +114,50 @@
                 </li>
               </ul>
             </li>
-            <li class="menu-item"><a class="telefones" href="#">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-               TELEFONES 
-              <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+            <li class="menu-item">
+              <a class="telefones principal" href="#">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                TELEFONES 
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+              </a>
+              <ul class="submenu_tel">
+                <li class="submenu-item">
+                  <a href="#" class="tel-item">  
+                      <span>Toyota Nações Unidas</span>
+                      <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </a>
+                  <ul class="tels">
+                    <li>
+                      <span class="num">(11) 3500-7909 </span> 
+                      <span class="nome">| Vendas</span>
+                    </li>
+                    <hr />
+                    <li>
+                      <span class="num">(11) 3500-7909 </span> 
+                      <span class="nome">| Serviços</span>
+                    </li>
+                  </ul>
+                </li>
+                <hr />
+                <li class="submenu-item">
+                  <a href="#" class="tel-item">
+                    <span>Toyota Morumbi</span>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </a>
+                  <ul class="tels">
+                    <li>
+                      <span class="num">(11) 3500-7909 </span> 
+                      <span class="nome">| Vendas</span>
+                    </li>
+                    <hr />
+                    <li>
+                      <span class="num">(11) 3500-7909 </span> 
+                      <span class="nome">| Serviços</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
             <li class="menu-item"><a href="#"><img src="img/logos/logo_toyota.png" width="117px"></a></li>
           </ul>
         </div>
@@ -125,26 +166,18 @@
     <div class="background">    
         <iframe id="video" src="https://player.vimeo.com/video/99088718?title=0&amp;byline=0&amp;portrait=0&amp;color=3a6774&amp;autoplay=1&amp;loop=1&amp;volume=0"></iframe>
     </div>
+    <h1>Teste Aqui de boas<h1>
     
     <!-- jQuery, Popper.js, Bootstrap JS, jQuery Vimeo -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.rawgit.com/jrue/Vimeo-jQuery-API/master/dist/jquery.vimeo.api.min.js"></script>
+    <script src="js/script.js"></script>
 
   </body>
 </html>
 
-<script>
-  //Utilizando o objeto jquery, para tratar o iframe
-  $(document).ready(function($) {
-    $("#video").vimeo("setVolume", 0);
-  });
-</script>
-
 <style type="text/css">
-  body {
-    font-family: Open Sans;
-    background-color: black;
-  }
+  
 </style>

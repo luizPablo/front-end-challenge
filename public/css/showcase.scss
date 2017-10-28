@@ -1,11 +1,9 @@
 @import 'variables.scss';
 
-.showcase-nav{
-  text-align: center;
-  width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  position: fixed;
+/*body*/
+body {
+  font-family: Open Sans;
+  background-color: black;
 }
 
 /*background*/
@@ -44,116 +42,4 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #212121;
-}
-
-/*nav*/
-.menu {
-  list-style: none;
-  font-weight: $font-weight-bold;
-  font-size: 12px;
-  padding-left: 0px;
-}
-.menu-item {
-  display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 18px;
-}
-.menu-item a {
-  text-decoration: none;
-  color: $color-font;
-  display: block;
-}
-.menu-item a:hover {
-  text-decoration: none;
-  color: $color-font;
-}
-
-.menu-item:hover .submenu_nv{
-  opacity: 1;
-  top: 45px;
-  left: auto;
-}
-
-.menu-item:hover .submenu_vd{
-  opacity: 1;
-  top: 45px;
-  left: auto;
-}
-
-.telefones {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border: 2px solid $color-font;
-  font-size: 14px;
-  font-weight: $font-weight-bold;
-}
-.submenu_nv {
-  list-style: none;
-  padding: 0px;
-  font-size: 12px;
-  font-weight: $font-weight-bold;
-  background-color: $color-white;
-  position: absolute;
-  max-height: 250px;
-  overflow: auto;
-  width: 25%;
-  opacity: 0;
-  top: 100px;
-  left: -9999px;
-
-  -webkit-transition: top 0.2s ease, opacity 0.2s ease-in;
-  -moz-transition: top 0.2s ease, opacity 0.2s ease-in;
-  -ms-transition: top 0.2s ease, opacity 0.2s ease-in;
-  -o-transition: top 0.2s ease, opacity 0.2s ease-in;
-  transition: top 0.2s ease, opacity 0.2s ease-in;
-}
-
-.submenu_vd {
-  list-style: none;
-  padding: 0px;
-  font-size: 12px;
-  font-weight: $font-weight-bold;
-  background-color: $color-white;
-  position: absolute;
-  max-height: 250px;
-  overflow: auto;
-  width: 13%;
-  opacity: 0;
-  top: 100px;
-  left: -9999px;
-
-  -webkit-transition: top 0.2s ease, opacity 0.2s ease-in;
-  -moz-transition: top 0.2s ease, opacity 0.2s ease-in;
-  -ms-transition: top 0.2s ease, opacity 0.2s ease-in;
-  -o-transition: top 0.2s ease, opacity 0.2s ease-in;
-  transition: top 0.2s ease, opacity 0.2s ease-in;
-}
-
-.submenu_nv .submenu-item {
-  padding-left: 15px;
-  padding-right: 15px;
-  color: $color-darkness;
-}
-.submenu_nv .submenu-nome {
-  height: 50px;
-}
-.submenu_nv .submenu-nome span{
-  float: left;
-  width: 70%;
-  text-align: left;
-  margin-top: 20px;
-}
-.submenu_nv .submenu-nome img{
-  float: right;
-  width: 30%;
-}
-
-.submenu_vd .submenu-item {
-  padding: 8px;
-  color: $color-darkness;
-  text-align: left;
-  font-weight: $font-weight-light!important;
 }
