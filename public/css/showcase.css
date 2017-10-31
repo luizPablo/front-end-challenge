@@ -118,7 +118,7 @@ body {
   position: relative;
   z-index: -100;
   opacity: 0.3;
-  overflow: auto; }
+  overflow: hidden; }
 
 .background iframe {
   left: 0;
@@ -325,5 +325,15 @@ input[type="button"]:active {
 
 .social img {
   padding-bottom: 10px; }
+
+@media screen and (max-width: 700px) {
+  .isca {
+    float: none; }
+
+  .anuncio {
+    float: none; }
+
+  .social {
+    float: none; } }
 
 /*# sourceMappingURL=showcase.css.map */

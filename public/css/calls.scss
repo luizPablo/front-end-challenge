@@ -1,0 +1,51 @@
+@import 'variables.scss';
+
+.container {
+	max-width: 80%!important;
+}
+
+.chamadas {
+	height: 100%;
+	background-color: #553038;
+	width: 100%;
+  	text-align: center;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+}
+
+.chamada_esp {
+	background-color: #553038;
+	color: $color-white;
+}
+
+.chamada_esp p {
+	margin-bottom: 5px;
+}
+
+.chamada_esp + .chamada_esp{
+	border-left: 1px solid #59383F;
+}
+
+.chamada_esp .titulo {
+	font-size: $font-size-large;
+}
+
+.chamada_esp .destaque {
+	font-size: $font-size-h1;
+	color: #CF3D5C;
+}
+
+.chamada_esp .desc {
+	font-size: $font-size-base;
+}
+
+@media screen and (max-width: 575px) {
+	.chamada_esp + .chamada_esp{
+		border-top: 1px solid #59383F;
+		border-left: none;
+	}
+
+	.chamadas {
+		margin-top: 1100px;
+	}
+}
