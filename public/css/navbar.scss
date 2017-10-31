@@ -20,7 +20,7 @@
 
 .menu {
   list-style: none;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-semi-bold;
   font-size: 12px;
   padding-left: 0px;
 }
@@ -75,13 +75,13 @@
   padding-bottom: 1px;
   border: 2px solid $color-font;
   font-size: 14px;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-semi-bold;
 }
 .submenu_nv {
   list-style: none;
   padding: 0px;
   font-size: 12px;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-semi-bold;
   background-color: $color-white;
   position: absolute;
   max-height: 250px;
@@ -103,14 +103,14 @@
   list-style: none;
   padding: 0px;
   font-size: 12px;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-semi-bold;
   background-color: $color-white;
   position: absolute;
   max-height: 250px;
   overflow: auto;
-  width: 13%;
+  width: 130px;
   opacity: 0;
-  top: 100px;
+  top: 70px;
   left: -9999px;
   border-radius: 2.5px;
 
@@ -124,10 +124,10 @@
 .submenu_tel {
   list-style: none;
   padding: 16px;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-semi-bold;
   background-color: $color-white;
   position: absolute;
-  width: 25%;
+  width: 240px;
   border-radius: 2.5px;
   opacity: 0;
   top: 100px;
@@ -168,7 +168,7 @@
 .submenu_tel .submenu-item {
   color: $color-darkness;
   text-align: left;
-  font-weight: $font-weight-bold!important;
+  font-weight: $font-weight-semi-bold!important;
 }
 
 .tel-item i{
@@ -182,10 +182,13 @@
   padding-right: 16px;
   margin-left: -16px;
   margin-right: -16px;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-semi-bold;
   color: $color-white;
   background-color: #b71d3e;
   display: none;
+  -moz-box-shadow:    inset 0 1px 10px #000000;
+  -webkit-box-shadow: inset 0 1px 10px #000000;
+  box-shadow:         inset 0 1px 10px #000000;
 }
 
 .tels li {
