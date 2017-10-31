@@ -138,12 +138,15 @@
 .chamada_esp .desc {
   font-size: 14px; }
 
+@media screen and (max-width: 800px) {
+  .chamadas {
+    margin-top: 700px; } }
 @media screen and (max-width: 575px) {
   .chamada_esp + .chamada_esp {
     border-top: 1px solid #59383F;
     border-left: none; }
 
   .chamadas {
-    margin-top: 1100px; } }
+    margin-top: 1000px; } }
 
 /*# sourceMappingURL=calls.css.map */
