@@ -8,11 +8,11 @@ body {
 
 /*background*/
 .background {
-  overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
   z-index: -100;
   opacity: 0.3;
+  overflow: auto;
 }
 .background iframe{
   left:0;
@@ -67,14 +67,14 @@ body {
 .isca h3{
   color: $color-white;
   font-weight: $font-weight-normal;
-  font-size: 18px;
+  font-size: $font-size-large;
   opacity: 1!important;
 }
 
 .isca h5{
   color: $color-white;
   font-weight: $font-weight-normal;
-  font-size: 12px;
+  font-size: $font-size-small;
   opacity: 1!important;
 }
 
@@ -89,7 +89,7 @@ body {
 .isca form span{
   color: $color-white;
   font-weight: $font-weight-bold;
-  font-size: 12px;
+  font-size: $font-size-small;
 }
 
 .form-input{
@@ -99,7 +99,7 @@ body {
   border: 1px solid $color-gray-dark;
   color: $color-white;
   padding: 6px;
-  font-size: 12px;
+  font-size: $font-size-small;
   font-weight: $font-weight-semi-bold;
 }
 
@@ -183,7 +183,7 @@ input[type="button"]:active {
 
 .isca a{
   font-weight: $font-weight-bold;
-  font-size: 12px;
+  font-size: $font-size-small;
   color: $color-white;
   text-decoration: underline;
 }

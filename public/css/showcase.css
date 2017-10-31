@@ -114,11 +114,11 @@ body {
 
 /*background*/
 .background {
-  overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
   z-index: -100;
-  opacity: 0.3; }
+  opacity: 0.3;
+  overflow: auto; }
 
 .background iframe {
   left: 0;

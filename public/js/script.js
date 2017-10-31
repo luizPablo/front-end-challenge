@@ -42,5 +42,17 @@
         $(this).addClass('fa-square-o');
         $(this).removeClass('fa-square');
       }
+    });
+
+    $('a').on('click', function(){
+      return false;
     })
+
+    $('.resp').on('click', function(){
+      if($(this).parent().parent().hasClass('responsivo')){
+        $(this).parent().parent().removeClass('responsivo');
+      }else{
+        $(this).parent().parent().addClass('responsivo');
+      }
+    });
   });

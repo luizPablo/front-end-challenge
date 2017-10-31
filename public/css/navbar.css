@@ -163,7 +163,7 @@
 
 .menu-item:hover .submenu_tel {
   opacity: 1;
-  top: 50px;
+  top: 48.5px;
   left: auto; }
 
 .telefones {
@@ -274,9 +274,9 @@
   color: #fff;
   background-color: #b71d3e;
   display: none;
-  -moz-box-shadow: inset 0 1px 10px #000000;
-  -webkit-box-shadow: inset 0 1px 10px #000000;
-  box-shadow: inset 0 1px 10px #000000; }
+  -moz-box-shadow: inset 0 2px 20px -5px #000000;
+  -webkit-box-shadow: inset 0 2px 20px -5px #000000;
+  box-shadow: inset 0 2px 20px -5px #000000; }
 
 .tels li {
   padding-top: 8px;
@@ -294,5 +294,49 @@ ul hr {
 
 .submenu_nv .submenu-item:hover, .submenu_vd .submenu-item:hover {
   background-color: #eaeaea; }
+
+@media screen and (max-width: 600px) {
+  .menu .menu-item:not(:first-child) {
+    display: none; }
+
+  .menu .menu-item {
+    float: left;
+    padding: 20px; }
+
+  .menu .icon {
+    float: right;
+    display: block !important;
+    font-size: 18px;
+    position: absolute;
+    right: 5px;
+    top: 5px; } }
+@media screen and (max-width: 970px) {
+  .submenu_nv {
+    width: 50% !important; } }
+@media screen and (max-width: 600px) {
+  .responsivo .menu-item:not(.icon) {
+    display: block !important;
+    text-align: left;
+    float: none;
+    width: 250px !important; }
+
+  .menu-item:hover .submenu_nv {
+    top: auto !important; }
+
+  .menu-item:hover .submenu_vd {
+    top: auto !important; }
+
+  .menu-item:hover .submenu_tel {
+    top: auto !important; }
+
+  .submenu_nv {
+    width: 80% !important; }
+
+  .responsivo {
+    height: 380px !important;
+    z-index: -200; }
+
+  .showcase-nav {
+    background-color: #b71d3e !important; } }
 
 /*# sourceMappingURL=navbar.css.map */
