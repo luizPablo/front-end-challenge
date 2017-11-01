@@ -2,6 +2,19 @@
 
 Esta é a **segunda fase** do processo seletivo para vaga de desenvolvedor front-end da AutoForce.
 
+### Foram utilizados neste projeto
+
+- Boostrap 4.0
+- jQuery 3.2.1
+- Vimeo jQuery API
+- Pacote de fonte/ícones (Font Awesome 4.7)
+- SASS
+- Todo o projeto foi codificado utilizando apenas um editor de texto (Sublime Text 3)
+
+### Como executar
+
+- Basta baixar/clonar o repositório e abrir o arquivo index.html em um browser
+
 ### <a name="criterios_avaliacao"/>Critérios de avaliação
 
 Itens que serão avaliados no Front-End Challenge: 
