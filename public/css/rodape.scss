@@ -1,0 +1,42 @@
+@import 'variables.scss';
+
+.rodape {
+	color: #5a5a5a;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.dir i{
+	cursor: pointer;
+	width: 35px;
+	height: 35px;
+	padding: 10px;
+	color: $color-black;
+	background: #5a5a5a;
+}
+
+.dir i + i{
+	margin-left: 2px;
+}
+
+.mei {
+	font-size: $font-size-wee;
+	font-weight: $font-weight-bold;
+}
+
+.mei p a{
+	text-decoration: underline;
+	color: #5a5a5a;
+}
+
+.mei p a + a{
+	padding-left: 10px;
+}
+
+.autoforce {
+	text-align: center;
+}
+
+.imagem img {
+	opacity: 0.4;
+}

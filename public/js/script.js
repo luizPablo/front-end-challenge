@@ -25,6 +25,7 @@
       }
     });
 
+    //codigo utilizado nos radiobuttons da isca
     $('label').on('click', function(){
       $('label').each(function(index){
         $(this).css('background-color', '#1c1c1c');
@@ -33,6 +34,7 @@
       $(this).css('background-color', '#fff');
     })
 
+    //codigo utilizado no checkbox da isca
     $('.check_pgp').on('click', function(){
       if($(this).hasClass('fa-square-o')){
         $(this).removeClass('fa-square-o');
@@ -44,12 +46,14 @@
       }
     });
 
+    //codigo utilizado nos botes de controle do carousel
     $('a').on('click', function(){
       if(!$(this).hasClass('carousel-control-prev') && !$(this).hasClass('carousel-control-next')){
         return false;
       }
     })
 
+    //codigo utilizado na navbar responsiva
     $('.resp').on('click', function(){
       if($(this).parent().parent().hasClass('responsivo')){
         $(this).parent().parent().removeClass('responsivo');
@@ -58,6 +62,7 @@
       }
     });
 
+    //codigo utilizado ao clickar sobre alguma versão
     $('.vers').on('click', function(){
       $('p.vers').each(function(index){
         $(this).removeClass('ativo');
@@ -65,6 +70,7 @@
       $(this).addClass('ativo');
     })
 
+    //codigo utilizado nos botoes de controle do carousel
     $('.corousel-control-prev').on('click', function(){
       console.log('prev');
       $('#carousel').carousel('prev');
@@ -73,7 +79,5 @@
     $('.corousel-control-next').on('click', function(){
       console.log('next');
       $('#carousel').carousel('next');
-    })
-
-    $('#carousel').carousel('pause');
+    });
   });
