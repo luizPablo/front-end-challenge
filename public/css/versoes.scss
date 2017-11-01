@@ -1,0 +1,144 @@
+@import 'variables.scss';
+
+.versoes {
+	background-image: url('../img/carros/bg_carro.png');
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.versoes .container {
+	background-color: rgba(28, 28, 28, 0.8);
+	margin-left: 0;
+	margin-right: 0;
+	max-width: 100%!important;
+}
+
+.versao {
+	padding-top: 30px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.vnome {
+	text-align: right;
+	color: $color-gray-light;
+}
+
+.vnome p {
+	margin-right: 20px;
+	color: $color-gray-dark;
+}
+
+.vnome p.ativo {
+	color: $color-gray-light;
+}
+
+.vnome .titulo {
+	font-size: $font-size-h3;
+	color: $color-gray-light;
+}
+
+.vnome .vers {
+	cursor: pointer;
+}
+
+.vnome hr {
+	background-color: $color-gray-dark;
+}
+
+.carro {
+	margin-left: -50px;
+	margin-top: 140px;
+}
+
+.espec{
+  width:100%;
+  margin-top: -50px;
+  background-color: rgba(28,28,28,0.7);
+  text-align: left;
+  position: relative;
+  float: left;
+  margin-left: 50px;
+  height: 400px;
+  padding: 20px;
+  padding-top: 50px;
+  overflow: auto;
+}
+
+.espec p{
+	color: $color-gray-light;
+	font-size: $font-size-h3;
+}
+
+.espec table {
+	color: $color-gray;
+	font-size: $font-size-base;
+}
+
+.espec table tr td{
+	padding: 5px;
+}
+
+.espec table tr td:not(:first-child){
+	padding-left: 15px;
+	color: #b71d3e;
+	font-weight: $font-weight-semi-bold;
+}
+
+.espec table tr:nth-child(odd){
+	background-color: rgba(80, 80, 80, 0.7);
+}
+
+/*scrollbar*/
+.espec::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+
+.espec::-webkit-scrollbar-thumb {
+  background-color: #b71d3e;
+}
+
+.itens-serie {
+	color: $color-gray-light;
+	padding: 0px;
+}
+
+.itens-serie p {
+	font-size: $font-size-h3;
+	margin-top: 25px;
+}
+
+.lista-itens {
+	height: 70px;
+	overflow: auto;
+	margin-bottom: 25px;
+}
+
+/*scrollbar*/
+.lista-itens::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+
+.lista-itens::-webkit-scrollbar-thumb {
+  background-color: #b71d3e;
+}
+
+.lista {
+	list-style: none;
+	padding: 0px;
+}
+
+.lista li {
+	display: inline-block;
+    padding: 4px 10px;
+    font-size: $font-size-small;
+    margin: 0 3px 3px 0;
+    float: left;
+    color: $color-white;
+    background-color: #b71d3e;
+    border-radius: 10px;
+    line-height: 1.2em;
+}

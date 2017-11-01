@@ -45,7 +45,9 @@
     });
 
     $('a').on('click', function(){
-      return false;
+      if(!$(this).hasClass('carousel-control-prev') && !$(this).hasClass('carousel-control-next')){
+        return false;
+      }
     })
 
     $('.resp').on('click', function(){
@@ -55,4 +57,23 @@
         $(this).parent().parent().addClass('responsivo');
       }
     });
+
+    $('.vers').on('click', function(){
+      $('p.vers').each(function(index){
+        $(this).removeClass('ativo');
+      });
+      $(this).addClass('ativo');
+    })
+
+    $('.corousel-control-prev').on('click', function(){
+      console.log('prev');
+      $('#carousel').carousel('prev');
+    });
+
+    $('.corousel-control-next').on('click', function(){
+      console.log('next');
+      $('#carousel').carousel('next');
+    })
+
+    $('#carousel').carousel('pause');
   });

@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+/* COLOR */
+/* FONT */
+.scrolloff {
+  pointer-events: none; }
+
+.fa-github-alt:hover,
+.fa-pinterest-p:hover,
+.fa-behance:hover,
+.fa-facebook:hover,
+.fa-foursquare:hover,
+.fa-google-plus:hover,
+.fa-instagram:hover,
+.fa-lastfm:hover,
+.fa-linkedin:hover,
+.fa-skype:hover,
+.fa-steam:hover,
+.fa-vine:hover,
+.fa-wordpress:hover,
+.fa-yahoo:hover,
+.fa-vimeo:hover,
+.fa-soundcloud:hover,
+.fa-spotify:hover,
+.fa-twitter:hover,
+.fa-whatsapp:hover,
+.fa-youtube-play:hover {
+  color: #fff; }
+
+.fa-github-alt:hover {
+  background: #000 !important; }
+
+.fa-pinterest-p:hover {
+  background: #cb2027 !important; }
+
+.fa-behance:hover {
+  background: #000 !important; }
+
+.fa-facebook:hover {
+  background: #3c599f !important; }
+
+.fa-foursquare:hover {
+  background: #1cafec !important; }
+
+.fa-google-plus:hover {
+  background: #cf1717 !important; }
+
+.fa-instagram:hover {
+  background: #2a5b83 !important; }
+
+.fa-lastfm:hover {
+  background: #d21309 !important; }
+
+.fa-linkedin:hover {
+  background: #007bb6 !important; }
+
+.fa-skype:hover {
+  background: #00aff0 !important; }
+
+.fa-steam:hover {
+  background: #000 !important; }
+
+.fa-vine:hover {
+  background: #00a478 !important; }
+
+.fa-wordpress:hover {
+  background: #21759a !important; }
+
+.fa-yahoo:hover {
+  background: #572c73 !important; }
+
+.fa-vimeo:hover {
+  background: #1ab7ea !important; }
+
+.fa-soundcloud:hover {
+  background: #f7620e !important; }
+
+.fa-spotify:hover {
+  background: #1ed760 !important; }
+
+.fa-twitter:hover {
+  background: #33ccff !important; }
+
+.fa-whatsapp:hover {
+  background: #179653 !important; }
+
+.fa-youtube-play:hover {
+  background: #ce1525 !important; }
+
+.fixed {
+  position: fixed; }
+
+.absolute {
+  position: absolute; }
+
+.static {
+  position: static; }
+
+.top {
+  top: 0; }
+
+.right {
+  right: 0; }
+
+.left {
+  left: 0; }
+
+.bottom {
+  bottom: 0; }
+
+.versoes {
+  background-image: url("../img/carros/bg_carro.png");
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  overflow: hidden; }
+
+.versoes .container {
+  background-color: rgba(28, 28, 28, 0.8);
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100% !important; }
+
+.versao {
+  padding-top: 30px;
+  max-width: 80%;
+  margin: 0 auto; }
+
+.vnome {
+  text-align: right;
+  color: #eaeaea; }
+
+.vnome p {
+  margin-right: 20px;
+  color: #797979; }
+
+.vnome p.ativo {
+  color: #eaeaea; }
+
+.vnome .titulo {
+  font-size: 24px;
+  color: #eaeaea; }
+
+.vnome .vers {
+  cursor: pointer; }
+
+.vnome hr {
+  background-color: #797979; }
+
+.carro {
+  margin-left: -50px;
+  margin-top: 140px; }
+
+.espec {
+  width: 100%;
+  margin-top: -50px;
+  background-color: rgba(28, 28, 28, 0.7);
+  text-align: left;
+  position: relative;
+  float: left;
+  margin-left: 50px;
+  height: 400px;
+  padding: 20px;
+  padding-top: 50px;
+  overflow: auto; }
+
+.espec p {
+  color: #eaeaea;
+  font-size: 24px; }
+
+.espec table {
+  color: #c6c6c6;
+  font-size: 14px; }
+
+.espec table tr td {
+  padding: 5px; }
+
+.espec table tr td:not(:first-child) {
+  padding-left: 15px;
+  color: #b71d3e;
+  font-weight: 600; }
+
+.espec table tr:nth-child(odd) {
+  background-color: rgba(80, 80, 80, 0.7); }
+
+/*scrollbar*/
+.espec::-webkit-scrollbar-track {
+  background-color: #ccc; }
+
+.espec::-webkit-scrollbar-thumb {
+  background-color: #b71d3e; }
+
+.itens-serie {
+  color: #eaeaea;
+  padding: 0px; }
+
+.itens-serie p {
+  font-size: 24px;
+  margin-top: 25px; }
+
+.lista-itens {
+  height: 70px;
+  overflow: auto;
+  margin-bottom: 25px; }
+
+/*scrollbar*/
+.lista-itens::-webkit-scrollbar-track {
+  background-color: #ccc; }
+
+.lista-itens::-webkit-scrollbar-thumb {
+  background-color: #b71d3e; }
+
+.lista {
+  list-style: none;
+  padding: 0px; }
+
+.lista li {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 12px;
+  margin: 0 3px 3px 0;
+  float: left;
+  color: #fff;
+  background-color: #b71d3e;
+  border-radius: 10px;
+  line-height: 1.2em; }
+
+/*# sourceMappingURL=versoes.css.map */
