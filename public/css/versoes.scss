@@ -18,7 +18,7 @@
 
 .versao {
 	padding-top: 30px;
-	max-width: 80%;
+	max-width: 70%;
 	margin: 0 auto;
 }
 
@@ -51,7 +51,7 @@
 
 .carro {
 	margin-left: -50px;
-	margin-top: 140px;
+	margin-top: 155px;
 }
 
 .espec{
@@ -75,11 +75,11 @@
 
 .espec table {
 	color: $color-gray;
-	font-size: $font-size-base;
+	font-size: $font-size-small;
 }
 
 .espec table tr td{
-	padding: 5px;
+	padding: 10px;
 }
 
 .espec table tr td:not(:first-child){

@@ -123,7 +123,7 @@
 
 .versao {
   padding-top: 30px;
-  max-width: 80%;
+  max-width: 70%;
   margin: 0 auto; }
 
 .vnome {
@@ -149,7 +149,7 @@
 
 .carro {
   margin-left: -50px;
-  margin-top: 140px; }
+  margin-top: 155px; }
 
 .espec {
   width: 100%;
@@ -170,10 +170,10 @@
 
 .espec table {
   color: #c6c6c6;
-  font-size: 14px; }
+  font-size: 12px; }
 
 .espec table tr td {
-  padding: 5px; }
+  padding: 10px; }
 
 .espec table tr td:not(:first-child) {
   padding-left: 15px;

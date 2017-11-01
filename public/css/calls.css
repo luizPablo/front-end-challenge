@@ -108,19 +108,19 @@
   bottom: 0; }
 
 .container {
-  max-width: 80% !important; }
+  max-width: 70% !important; }
 
 .chamadas {
   height: 100%;
   background-color: #553038;
   width: 100%;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 .chamada_esp {
   background-color: #553038;
-  color: #fff; }
+  color: #c6c6c6; }
 
 .chamada_esp p {
   margin-bottom: 5px; }
@@ -129,7 +129,7 @@
   border-left: 1px solid #59383F; }
 
 .chamada_esp .titulo {
-  font-size: 18px; }
+  font-size: 24px; }
 
 .chamada_esp .destaque {
   font-size: 36px;

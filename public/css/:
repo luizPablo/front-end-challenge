@@ -107,52 +107,46 @@
 .bottom {
   bottom: 0; }
 
-.slide {
-  background-color: #fff;
-  text-align: center; }
+.container {
+  max-width: 70% !important; }
 
-.carousel-inner {
-  text-align: center; }
+.chamadas {
+  height: 100%;
+  background-color: #553038;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
-.carousel-indicators li {
-  background-color: #797979;
-  height: 10px;
-  width: 10px;
-  border-radius: 10px; }
+.chamada_esp {
+  background-color: #553038;
+  color: #fff; }
 
-.carousel-indicators li.active {
-  background-color: #b71d3e; }
+.chamada_esp p {
+  margin-bottom: 5px; }
 
-.carousel-item ul {
-  list-style: none;
-  margin-top: 50px;
-  padding-left: 0px; }
+.chamada_esp + .chamada_esp {
+  border-left: 1px solid #59383F; }
 
-.carousel-item ul li {
-  display: inline-block;
-  padding: 30px;
-  opacity: 0.5; }
+.chamada_esp .titulo {
+  font-size: 30px; }
 
-.carousel-item ul li:hover {
-  cursor: pointer;
-  display: inline-block;
-  padding: 30px;
-  opacity: 1; }
+.chamada_esp .destaque {
+  font-size: 36px;
+  color: #CF3D5C; }
 
-.carousel-item ul li p {
-  margin-top: 25px; }
+.chamada_esp .desc {
+  font-size: 14px; }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  padding: 12px;
-  background-color: #797979; }
+@media screen and (max-width: 800px) {
+  .chamadas {
+    margin-top: 700px; } }
+@media screen and (max-width: 575px) {
+  .chamada_esp + .chamada_esp {
+    border-top: 1px solid #59383F;
+    border-left: none; }
 
-.slide .titulo {
-  font-size: 30px;
-  font-weight: 300;
-  padding-top: 30px; }
+  .chamadas {
+    margin-top: 1000px; } }
 
-.slide hr {
-  width: 7%; }
-
-/*# sourceMappingURL=carousel.css.map */
+/*# sourceMappingURL=:.map */

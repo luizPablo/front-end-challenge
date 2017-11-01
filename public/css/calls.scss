@@ -1,7 +1,7 @@
 @import 'variables.scss';
 
 .container {
-	max-width: 80%!important;
+	max-width: 70%!important;
 }
 
 .chamadas {
@@ -9,13 +9,13 @@
 	background-color: #553038;
 	width: 100%;
   	text-align: center;
-  	padding-top: 20px;
-  	padding-bottom: 20px;
+  	padding-top: 40px;
+  	padding-bottom: 40px;
 }
 
 .chamada_esp {
 	background-color: #553038;
-	color: $color-white;
+	color: $color-gray;
 }
 
 .chamada_esp p {
@@ -27,7 +27,7 @@
 }
 
 .chamada_esp .titulo {
-	font-size: $font-size-large;
+	font-size: $font-size-h3;
 }
 
 .chamada_esp .destaque {

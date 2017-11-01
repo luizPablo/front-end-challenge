@@ -27,9 +27,17 @@
 	padding-left: 0px;
 }
 
-.carousel-item ul li{
+.carousel-item ul li {
 	display: inline-block;
-	padding: 15px;
+	padding: 30px;
+	opacity: 0.5;
+}
+
+.carousel-item ul li:hover {
+	cursor: pointer;
+	display: inline-block;
+	padding: 30px;
+	opacity: 1;
 }
 
 .carousel-item ul li p{

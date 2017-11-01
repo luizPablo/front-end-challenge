@@ -47,8 +47,8 @@ body {
 .showcase-body{
   text-align: center;
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
   position: absolute;
 }
 
@@ -88,8 +88,14 @@ body {
 
 .isca form span{
   color: $color-white;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-semi-bold;
   font-size: $font-size-small;
+}
+
+.isca form span.receber_info{
+  color: $color-white;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-wee;
 }
 
 .form-input{
@@ -223,7 +229,7 @@ input[type="button"]:active {
 }
 
 .anuncio .precpor {
-  font-size: $font-size-h3;
+  font-size: $font-size-h2;
   font-weight: $font-weight-semi-bold;
   margin-bottom: 5px;
 }
@@ -266,5 +272,21 @@ input[type="button"]:active {
   }
   .social {
     float: none;
+  }
+}
+
+@media screen and (max-width: 740px){
+  .social {
+    display: none;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  .background {
+    background-image: url('http://1.bp.blogspot.com/_qKAj9ZRMD9k/TUcJSuqRPLI/AAAAAAAAAlQ/SqCJSF07RWM/s1600/Toyota%2BEtios%2BCar.jpg');
+    background-size: cover;
+    height: 800px;
   }
 }
