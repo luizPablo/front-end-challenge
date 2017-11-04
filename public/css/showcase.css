@@ -339,7 +339,10 @@ input[type="button"]:active {
     float: none; }
 
   .social {
-    float: none; } }
+    float: none; }
+
+  .parcela + .parcela {
+    margin-left: 3%; } }
 @media screen and (max-width: 740px) {
   .social {
     display: none; }
