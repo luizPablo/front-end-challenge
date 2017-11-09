@@ -4,7 +4,7 @@ Esta é a **segunda fase** do processo seletivo para vaga de desenvolvedor front
 
 ### Foram utilizados neste projeto
 
-- Boostrap 4.0
+- Bootstrap 4.0
 - jQuery 3.2.1
 - Vimeo jQuery API
 - Pacote de fonte/ícones (Font Awesome 4.7)
